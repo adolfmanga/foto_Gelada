@@ -1,0 +1,62 @@
+@import 
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    }
+
+
+
+.topo-site {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.div-butao {
+
+}
+
+.butao-login {
+    background-color: #161616;
+    color: #FFFFFF;
+    font-size: 30px;
+    border: 1px dashed #996;
+}
+
+.bloco-I {
+    display: grid;
+    height: 200px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 20px 5px;
+    
+    
+  } 
+
+  .bloco-I img {
+    width: 300px;
+    height: 150px;
+    
+}
+
+.bloco-I-2 img {
+    width: 250px;
+    height: 350px;
+}
+
+  .bloco-I-I {
+    display: grid;
+    position: absolute bottom;
+    gap: 10px;
+  }
+
+  .bloco-I-I img {
+    width: 200px;
+    height: 150px;
+  }
+
+
+
+.rodape {
+    display: flex;
+
+}
